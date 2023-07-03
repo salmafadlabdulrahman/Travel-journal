@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+nav {
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 1.5em;
+}
+
+.earth-icon {
+  color: white;
+  font-size: 25px;
+}
+
+.header {
+  font-weight: 400;
+  color: white;
+  font-size: 18px;
+  letter-spacing: -1px;
+}
+
+
+.destinations-container {
+  margin: 0 auto;
+  padding-bottom: 4em;
+  border-bottom: 1px solid #E5E5E5;
+  width: 90%;
+}
+
+.destination-container {
+  margin-top: 5em;
+  display: flex;
+}
+
+.destinations-container:last-child {
+  border: 0;
+  padding-bottom: 3em;
+}
+
+.destination-img {
+  width: 250px;
+  border-radius: 15px;
+}
+
+.destination-content {
+  margin-left: 2em;
+  margin-top: 2em;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.country {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #2B283A;
+  letter-spacing: 2px;
+  font-size: 16px;
+}
+
+.pin-icon {
+  color: #F55A5A
+}
+
+.google-maps {
+  color: #918E9B;
+}
+
+.destination-info {
+  margin-top: 1em;
+}
+
+.destination {
+  color: #2B283A;
+  font-size: 2.5em;
+}
+
+.history {
+  margin-top: 2.5em;
+}
+
+.destination-description {
+  color: #2B283A;
+  width: 70%;
+  margin-top: 2em;
+  line-height: 1.5;
+  font-size: 18px;
+}
